@@ -1,0 +1,4 @@
+github.com/crowdmob/goamz v0.0.0-20150128194925-3a06871fe9fc h1:Gn/roShKxUNtNYEEH+ZeGxMJ+RsCBZdIdb8pKOesTaA=
+github.com/crowdmob/goamz v0.0.0-20150128194925-3a06871fe9fc/go.mod h1:4zrXGiIhmCfgVUO6nJpSa9QVXylPKBYkLa179m59HzE=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=

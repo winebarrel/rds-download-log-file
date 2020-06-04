@@ -1,0 +1,4 @@
+*.log
+/rds-download-log-file
+*.gz
+*.sha1sum
