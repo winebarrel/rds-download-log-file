@@ -1,6 +1,6 @@
 # rds-download-log-file
 
-Downloading RDS logs using the DownloadCompleteDBLogFile API.
+A CLI to download RDS logs using the DownloadCompleteDBLogFile API.
 
 ## Usage
 
