@@ -65,7 +65,7 @@ func printErrorAndExit(msg string) {
 func getDefaultRegion() string {
 	region := os.Getenv("AWS_DEFAULT_REGION")
 
-	if region != "" {
+	if region == "" {
 		region = os.Getenv("AWS_REGION")
 	}
 
