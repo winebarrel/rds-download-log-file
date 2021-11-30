@@ -13,7 +13,7 @@ build:
 .PHONY: package
 package: clean build
 	gzip rds-download-log-file -c > rds-download-log-file_$(VERSION)_$(GOOS)_$(GOARCH).gz
-	sha1sum rds-download-log-file_$(VERSION)_$(GOOS)_$(GOARCH).gz > rds-download-log-file_$(VERSION)_$(GOOS)_$(GOARCH).gz.sha1sum
+	sha256sum rds-download-log-file_$(VERSION)_$(GOOS)_$(GOARCH).gz > rds-download-log-file_$(VERSION)_$(GOOS)_$(GOARCH).gz.sha256sum
 
 .PHONY: clean
 clean:
