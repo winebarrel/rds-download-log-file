@@ -37,8 +37,8 @@ func Donwload(region, dbInstanceIdentifier, logFileName string, writer io.Writer
 			return fmt.Errorf("log download error: %w", err)
 		}
 
-		defer reader.Close()
 		_, err = io.Copy(writer, reader)
+		reader.Close()
 
 		if err != nil {
 			continue
