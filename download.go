@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/cenkalti/backoff"
-	"github.com/crowdmob/goamz/aws"
-	"github.com/crowdmob/goamz/rds"
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/rds"
 )
 
 func Donwload(region, dbInstanceIdentifier, logFileName string, writer io.Writer) error {

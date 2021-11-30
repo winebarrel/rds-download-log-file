@@ -4,6 +4,5 @@ go 1.14
 
 require (
 	github.com/cenkalti/backoff v2.2.1+incompatible
-	github.com/crowdmob/goamz v0.0.0-20150128194925-3a06871fe9fc
-	gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
+	github.com/winebarrel/goamz v0.0.0-20211130102519-f5ad8af2119b
 )
