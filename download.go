@@ -25,7 +25,7 @@ func Donwload(region, dbInstanceIdentifier, logFileName string, writer io.Writer
 
 	ticker := backoff.NewTicker(backoff.NewExponentialBackOff())
 
-	for _ = range ticker.C {
+	for range ticker.C {
 		var reader io.ReadCloser
 		reader, err = svc.DownloadCompleteDBLogFile(dbInstanceIdentifier, logFileName)
 
