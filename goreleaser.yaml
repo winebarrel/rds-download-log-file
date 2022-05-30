@@ -1,0 +1,25 @@
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - main: ./cmd/rds-download-log-file
+    binary: rds-download-log-file
+    ldflags:
+      - -X main.version={{.Version}}
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - windows
+      - darwin
+checksum:
+  name_template: "checksums.txt"
+brews:
+  - tap:
+      owner: winebarrel
+      name: homebrew-rds-download-log-file
+    homepage: https://github.com/winebarrel/rds-download-log-file
+    description: A CLI to download RDS logs using the DownloadCompleteDBLogFile API.
+    license: MIT
+    install: |
+      bin.install 'rds-download-log-file'
