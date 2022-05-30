@@ -1,4 +1,5 @@
 *.log
 /rds-download-log-file
-*.gz
-*.sha*sum
+/rds-download-log-file
+/rds-download-log-file.exe
+dist/
