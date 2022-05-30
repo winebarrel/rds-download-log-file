@@ -2,6 +2,12 @@
 
 A CLI to download RDS logs using the DownloadCompleteDBLogFile API.
 
+## Installation
+
+```
+brew install winebarrel/rds-download-log-file/rds-download-log-file
+```
+
 ## Usage
 
 ```
